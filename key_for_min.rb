@@ -6,7 +6,6 @@ def key_for_min_value(name_hash)
   key = nil
   name_hash.each do |one,two|
     if smallest_value == nil
-    one < smallest_value
    smallest_value = two
    key = one
   end
